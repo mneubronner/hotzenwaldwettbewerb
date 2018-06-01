@@ -1,9 +1,27 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="999_Ziel Hotz" id="0" comment="" altitude="1150.0">
-      <Location longitude="7.9411167" latitude="47.63305"/>
+    <Waypoint name="001_Bergalingen" id="0" comment="" altitude="777.0">
+      <Location longitude="7.9491667" latitude="47.6036167"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="237_Wasserflue" id="0" comment="" altitude="866.0">
+      <Location longitude="8.02035" latitude="47.4310167"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="178_Pratz St Claude" id="0" comment="" altitude="618.0">
+      <Location longitude="5.7707667" latitude="46.3853333"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="114_Kienberg" id="0" comment="" altitude="547.0">
+      <Location longitude="7.9683333" latitude="47.4383333"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="999_Ziel Hotz" id="0" comment="" altitude="1150.0">
@@ -12,4 +30,3 @@
     <ObservationZone type="Line" length="1000.0"/>
   </Point>
 </Task>
-
