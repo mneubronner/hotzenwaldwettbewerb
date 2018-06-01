@@ -1,5 +1,15 @@
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
     <Waypoint name="999_Ziel Hotz" id="0" comment="" altitude="1150.0">
       <Location longitude="7.9411167" latitude="47.63305"/>
     </Waypoint>
-  
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="999_Ziel Hotz" id="0" comment="" altitude="1150.0">
+      <Location longitude="7.9411167" latitude="47.63305"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="1000.0"/>
+  </Point>
+</Task>
 
