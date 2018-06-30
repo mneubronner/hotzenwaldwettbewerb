@@ -1,31 +1,25 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="Eggbergbecken" id="0" comment="" altitude="694.0">
-      <Location longitude="7.9598" latitude="47.5807833"/>
+    <Waypoint name="AP RÃ¼tte" id="0" comment="" altitude="1008.0">
+      <Location longitude="7.9797167" latitude="47.68055"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="Wisenberg" id="0" comment="" altitude="1002.0">
-      <Location longitude="7.8811167" latitude="47.4025"/>
+    <Waypoint name="Bauerbach" id="0" comment="" altitude="187.0">
+      <Location longitude="8.7447167" latitude="49.08305"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="Vue des Alpes" id="0" comment="" altitude="1283.0">
-      <Location longitude="6.87" latitude="47.0722167"/>
-    </Waypoint>
-    <ObservationZone type="Keyhole"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="Kienberg" id="0" comment="" altitude="547.0">
-      <Location longitude="7.9683333" latitude="47.4383333"/>
+    <Waypoint name="Harburg" id="0" comment="" altitude="412.0">
+      <Location longitude="10.6991667" latitude="48.7791667"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="0_Huetten" id="0" comment="" altitude="873.0">
-      <Location longitude="7.9411167" latitude="47.63305"/>
+    <Waypoint name="AP RÃ¼tte" id="0" comment="" altitude="1008.0">
+      <Location longitude="7.9797167" latitude="47.68055"/>
     </Waypoint>
     <ObservationZone type="Line" length="1000.0"/>
   </Point>
