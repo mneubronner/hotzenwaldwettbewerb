@@ -1,31 +1,31 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="Puimoisson" id="0" comment="LFTP 122.5" altitude="762.0">
-      <Location longitude="6.1641667" latitude="43.8694444"/>
+    <Waypoint name="001_HORNBERGBECKEN" id="0" comment="" altitude="1031.0">
+      <Location longitude="7.9608333" latitude="47.6588833"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="Sollieres Sardie" id="0" comment="LFKD 123.5" altitude="1299.0">
-      <Location longitude="6.8013889" latitude="45.2538889"/>
+    <Waypoint name="271_SIMMERSFELD" id="0" comment="" altitude="779.0">
+      <Location longitude="8.50945" latitude="48.6311167"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="Aubenasson" id="0" comment="LFJF 123.5" altitude="244.0">
-      <Location longitude="5.1505556" latitude="44.695"/>
+    <Waypoint name="188_MOENCHWEILER" id="0" comment="" altitude="786.0">
+      <Location longitude="8.4216667" latitude="48.095"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="Puimoisson" id="0" comment="LFTP 122.5" altitude="762.0">
-      <Location longitude="6.1641667" latitude="43.8694444"/>
+    <Waypoint name="092_GAMMERTINGEN" id="0" comment="" altitude="677.0">
+      <Location longitude="9.2175" latitude="48.25055"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="Free turnpoint" id="0" comment="" altitude="-999.0">
-      <Location longitude="6.07760834694" latitude="43.8776714645"/>
+    <Waypoint name="000_HOTZENWALD" id="0" comment="" altitude="873.0">
+      <Location longitude="7.9372167" latitude="47.6338833"/>
     </Waypoint>
     <ObservationZone type="Line" length="1000.0"/>
   </Point>
