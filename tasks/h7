@@ -1,31 +1,31 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="001_HORNBERGBECKEN" id="0" comment="" altitude="1031.0">
-      <Location longitude="7.9608333" latitude="47.6588833"/>
+    <Waypoint name="004_LINDAU" id="0" comment="" altitude="931.0">
+      <Location longitude="8.0308333" latitude="47.725"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="271_SIMMERSFELD" id="0" comment="" altitude="779.0">
-      <Location longitude="8.50945" latitude="48.6311167"/>
+    <Waypoint name="Eichstaett" id="0" comment="EDPE 123.0" altitude="524.0">
+      <Location longitude="11.1816667" latitude="48.8769444"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="188_MOENCHWEILER" id="0" comment="" altitude="786.0">
-      <Location longitude="8.4216667" latitude="48.095"/>
+    <Waypoint name="239_ROETENBACH" id="0" comment="" altitude="898.0">
+      <Location longitude="8.2761167" latitude="47.8947167"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="092_GAMMERTINGEN" id="0" comment="" altitude="677.0">
-      <Location longitude="9.2175" latitude="48.25055"/>
+    <Waypoint name="002_BERGALINGEN" id="0" comment="" altitude="777.0">
+      <Location longitude="7.9491667" latitude="47.6036167"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="000_HOTZENWALD" id="0" comment="" altitude="873.0">
-      <Location longitude="7.9372167" latitude="47.6338833"/>
+    <Waypoint name="005_ZIEL HOTZ" id="0" comment="" altitude="1023.0">
+      <Location longitude="7.9411167" latitude="47.63305"/>
     </Waypoint>
     <ObservationZone type="Line" length="1000.0"/>
   </Point>
