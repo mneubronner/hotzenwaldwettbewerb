@@ -1,23 +1,39 @@
-<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="002_Hornbergbecken" id="0" comment="" altitude="1031.0">
-      <Location longitude="7.9608333" latitude="47.6588833"/>
+    <Waypoint name="000_HOTZENWALD" id="0" comment="" altitude="873.0">
+      <Location longitude="7.9372167" latitude="47.6338833"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="021_Baiersbronn" id="0" comment="" altitude="553.0">
-      <Location longitude="8.37195" latitude="48.5038833"/>
+  <Point type="Area">
+    <Waypoint name="323_WISENBERG" id="0" comment="" altitude="1002.0">
+      <Location longitude="7.8811167" latitude="47.4025"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="40000.0"/>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="086_FLEURIER" id="0" comment="" altitude="741.0">
+      <Location longitude="6.5813833" latitude="46.9047167"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="30000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="148_KIENBERG" id="0" comment="" altitude="547.0">
+      <Location longitude="7.9683333" latitude="47.4383333"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="304_VOEHRENBACH" id="0" comment="" altitude="813.0">
+      <Location longitude="8.2983333" latitude="48.04555"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="30000.0"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="000_Huetten Hotz" id="0" comment="" altitude="873.0">
+    <Waypoint name="005_ZIEL HOTZ" id="0" comment="" altitude="1023.0">
       <Location longitude="7.9411167" latitude="47.63305"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="3000.0"/>
+    <ObservationZone type="Line" length="1000.0"/>
   </Point>
 </Task>
-
-
 
