@@ -1,27 +1,27 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="002_BERGALINGEN" id="0" comment="" altitude="777.0">
-      <Location longitude="7.9491667" latitude="47.6036167"/>
+    <Waypoint name="001_HORNBERGBECKEN" id="0" comment="" altitude="1031.0">
+      <Location longitude="7.9608333" latitude="47.6588833"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="027_BARMELWEID" id="0" comment="" altitude="771.0">
-      <Location longitude="7.9716667" latitude="47.4213833"/>
+    <Waypoint name="271_SIMMERSFELD" id="0" comment="" altitude="779.0">
+      <Location longitude="8.50945" latitude="48.6311167"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="5000.0"/>
+    <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="273_SONCEBOZ" id="0" comment="" altitude="653.0">
-      <Location longitude="7.1786167" latitude="47.1952833"/>
+    <Waypoint name="239_ROETENBACH" id="0" comment="" altitude="898.0">
+      <Location longitude="8.2761167" latitude="47.8947167"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="30000.0"/>
+    <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="323_WISENBERG" id="0" comment="" altitude="1002.0">
-      <Location longitude="7.8811167" latitude="47.4025"/>
+    <Waypoint name="149_KINZIGTALSPERRE" id="0" comment="" altitude="572.0">
+      <Location longitude="8.3675" latitude="48.3972167"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="5000.0"/>
+    <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="005_ZIEL HOTZ" id="0" comment="" altitude="1023.0">
