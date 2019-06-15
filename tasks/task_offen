@@ -6,22 +6,22 @@
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="319_WILDBAD" id="0" comment="" altitude="424.0">
-      <Location longitude="8.5511167" latitude="48.7552833"/>
+    <Waypoint name="143_KANDEL" id="0" comment="" altitude="1164.0">
+      <Location longitude="8.01805" latitude="48.0633333"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="30000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="109_HABSBERG" id="0" comment="" altitude="1241.0">
-      <Location longitude="8.1247167" latitude="47.8036167"/>
+    <Waypoint name="258_SCHUPFART" id="0" comment="" altitude="547.0">
+      <Location longitude="7.95" latitude="47.5088833"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="138_HUZENBACH" id="0" comment="" altitude="489.0">
-      <Location longitude="8.3913833" latitude="48.5822167"/>
+    <Waypoint name="266_SCHWENNINGEN" id="0" comment="" altitude="661.0">
+      <Location longitude="8.5711" latitude="48.0656"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="40000.0"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="005_ZIEL HOTZ" id="0" comment="" altitude="1023.0">
