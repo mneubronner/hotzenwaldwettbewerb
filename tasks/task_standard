@@ -6,22 +6,22 @@
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="271_SIMMERSFELD" id="0" comment="" altitude="779.0">
-      <Location longitude="8.50945" latitude="48.6311167"/>
+    <Waypoint name="143_KANDEL" id="0" comment="" altitude="1164.0">
+      <Location longitude="8.01805" latitude="48.0633333"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="30000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="018_BAD SAECKINGEN" id="0" comment="" altitude="285.0">
+      <Location longitude="7.94555" latitude="47.54695"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
   </Point>
   <Point type="Turn">
     <Waypoint name="239_ROETENBACH" id="0" comment="" altitude="898.0">
       <Location longitude="8.2761167" latitude="47.8947167"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="149_KINZIGTALSPERRE" id="0" comment="" altitude="572.0">
-      <Location longitude="8.3675" latitude="48.3972167"/>
-    </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="005_ZIEL HOTZ" id="0" comment="" altitude="1023.0">
