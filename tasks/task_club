@@ -1,25 +1,25 @@
-<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
     <Waypoint name="001_HORNBERGBECKEN" id="0" comment="" altitude="1031.0">
       <Location longitude="7.9608333" latitude="47.6588833"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="319_WILDBAD" id="0" comment="" altitude="424.0">
-      <Location longitude="8.5511167" latitude="48.7552833"/>
+  <Point type="Turn">
+    <Waypoint name="143_KANDEL" id="0" comment="" altitude="1164.0">
+      <Location longitude="8.01805" latitude="48.0633333"/>
     </Waypoint>
     <ObservationZone type="Cylinder" radius="30000.0"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="109_HABSBERG" id="0" comment="" altitude="1241.0">
-      <Location longitude="8.1247167" latitude="47.8036167"/>
+  <Point type="Turn">
+    <Waypoint name="018_BAD SAECKINGEN" id="0" comment="" altitude="285.0">
+      <Location longitude="7.94555" latitude="47.54695"/>
     </Waypoint>
     <ObservationZone type="Cylinder" radius="20000.0"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="256_SCHRAMBERG" id="0" comment="" altitude="489.0">
-      <Location longitude="8.3858333" latitude="48.2238833"/>
+  <Point type="Turn">
+    <Waypoint name="239_ROETENBACH" id="0" comment="" altitude="898.0">
+      <Location longitude="8.2761167" latitude="47.8947167"/>
     </Waypoint>
     <ObservationZone type="Cylinder" radius="20000.0"/>
   </Point>
@@ -27,7 +27,7 @@
     <Waypoint name="005_ZIEL HOTZ" id="0" comment="" altitude="1023.0">
       <Location longitude="7.9411167" latitude="47.63305"/>
     </Waypoint>
-    <ObservationZone type="Line" length="2000.0"/>
+    <ObservationZone type="Line" length="1000.0"/>
   </Point>
 </Task>
 
