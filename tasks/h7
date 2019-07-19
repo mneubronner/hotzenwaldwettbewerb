@@ -1,31 +1,31 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="004_LINDAU" id="0" comment="" altitude="931.0">
-      <Location longitude="8.0308333" latitude="47.725"/>
+    <Waypoint name="Puimoisson" id="0" comment="LFTP 122.5" altitude="762.0">
+      <Location longitude="6.1641667" latitude="43.8694444"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="Eichstaett" id="0" comment="EDPE 123.0" altitude="524.0">
-      <Location longitude="11.1816667" latitude="48.8769444"/>
+    <Waypoint name="Aosta" id="0" comment="LIMW 119.95" altitude="546.0">
+      <Location longitude="7.3680556" latitude="45.7386111"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="239_ROETENBACH" id="0" comment="" altitude="898.0">
-      <Location longitude="8.2761167" latitude="47.8947167"/>
+    <Waypoint name="St Jean Avelan" id="0" comment="LFKH 123.5" altitude="296.0">
+      <Location longitude="5.68" latitude="45.5166667"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="002_BERGALINGEN" id="0" comment="" altitude="777.0">
-      <Location longitude="7.9491667" latitude="47.6036167"/>
+    <Waypoint name="Trets Pourrie28" id="0" comment=" 123.45" altitude="242.0">
+      <Location longitude="5.7108333" latitude="43.4797222"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="005_ZIEL HOTZ" id="0" comment="" altitude="1023.0">
-      <Location longitude="7.9411167" latitude="47.63305"/>
+    <Waypoint name="Puimoisson" id="0" comment="LFTP 122.5" altitude="762.0">
+      <Location longitude="6.1641667" latitude="43.8694444"/>
     </Waypoint>
     <ObservationZone type="Line" length="1000.0"/>
   </Point>
