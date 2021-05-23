@@ -1,27 +1,20 @@
-<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
-  <Point type="Start">
-    <Waypoint name="Todtmoos Au" id="0" comment="" altitude="695.0">
-      <Location longitude="7.9822167" latitude="47.6966667"/>
-    </Waypoint>
-    <ObservationZone type="Line" length="20000.0"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="Kuernbach UL" id="0" comment="" altitude="184.0">
-      <Location longitude="8.8322167" latitude="49.0861167"/>
-    </Waypoint>
-    <ObservationZone type="Keyhole"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="Duttenstein" id="0" comment="" altitude="551.0">
-      <Location longitude="10.4613833" latitude="48.6888833"/>
-    </Waypoint>
-    <ObservationZone type="Keyhole"/>
-  </Point>
-  <Point type="Finish">
-    <Waypoint name="Todtmoos Au" id="0" comment="" altitude="695.0">
-      <Location longitude="7.9822167" latitude="47.6966667"/>
-    </Waypoint>
-    <ObservationZone type="Line" length="1000.0"/>
-  </Point>
+<Task type="RT">
+	<Point type="Start">
+		<Waypoint altitude="471" name="Rothenfluh Kirch">
+			<Location latitude="47.46165" longitude="7.914417"/>
+		</Waypoint>
+		<ObservationZone radius="1000" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="535" name="Oyonnax Arbent">
+			<Location latitude="46.278631" longitude="5.666199"/>
+		</Waypoint>
+		<ObservationZone radius="1000" type="FAISector"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="874" name="Hütten-Hotzenwald">
+			<Location latitude="47.633933" longitude="7.936935"/>
+		</Waypoint>
+		<ObservationZone radius="1000" type="Cylinder"/>
+	</Point>
 </Task>
-
