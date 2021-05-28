@@ -1,19 +1,19 @@
 <Task type="RT">
 	<Point type="Start">
-		<Waypoint altitude="471" name="Rothenfluh Kirch">
-			<Location latitude="47.46165" longitude="7.914417"/>
+		<Waypoint altitude="928" name="Ibach">
+			<Location latitude="47.730317" longitude="8.0625"/>
 		</Waypoint>
 		<ObservationZone radius="1000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="535" name="Oyonnax Arbent">
-			<Location latitude="46.278631" longitude="5.666199"/>
+		<Waypoint altitude="231" name="Himmelreich">
+			<Location latitude="49.75681" longitude="9.559243"/>
 		</Waypoint>
 		<ObservationZone radius="1000" type="FAISector"/>
 	</Point>
 	<Point type="Finish">
-		<Waypoint altitude="874" name="Hütten-Hotzenwald">
-			<Location latitude="47.633933" longitude="7.936935"/>
+		<Waypoint altitude="928" name="Ibach">
+			<Location latitude="47.730317" longitude="8.0625"/>
 		</Waypoint>
 		<ObservationZone radius="1000" type="Cylinder"/>
 	</Point>
