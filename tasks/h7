@@ -1,19 +1,19 @@
 <Task type="RT">
 	<Point type="Start">
-		<Waypoint altitude="928" name="Ibach">
-			<Location latitude="47.730317" longitude="8.0625"/>
+		<Waypoint altitude="1175" name="Rohrenkopf">
+			<Location latitude="47.713371" longitude="7.927494"/>
 		</Waypoint>
 		<ObservationZone radius="1000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="231" name="Himmelreich">
-			<Location latitude="49.75681" longitude="9.559243"/>
+		<Waypoint altitude="463" name="Schwann-Connweiler">
+			<Location latitude="48.838396" longitude="8.5429"/>
 		</Waypoint>
 		<ObservationZone radius="1000" type="FAISector"/>
 	</Point>
 	<Point type="Finish">
-		<Waypoint altitude="928" name="Ibach">
-			<Location latitude="47.730317" longitude="8.0625"/>
+		<Waypoint altitude="538" name="Chriesiberg">
+			<Location latitude="47.541433" longitude="7.902421"/>
 		</Waypoint>
 		<ObservationZone radius="1000" type="Cylinder"/>
 	</Point>
