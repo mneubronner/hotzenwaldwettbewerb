@@ -207,8 +207,8 @@ begin
   // Read PEV Gate Parameters from DayTag. Return zero PEVWaitTime or PEVStartWindow are unparsable or missing
   
   StartTimeBuffer:=30; // Start time buffer zone. if one starts 30 seconds too early he is scored by his actual start time
-  PEVWaitTime := Trunc(ReadDayTagParameter('PEVWAITTIME=10',0)) * 60;	// WaitTime in seconds - MN: Set added =10
-  PEVStartWindow := Trunc(ReadDayTagParameter('PEVSTARTWINDOW=10',10))* 60; // StartWindow open in seconds  - MN: Set added =10
+  PEVWaitTime := Trunc(ReadDayTagParameter('PEVWAITTIME',10)) * 60;	// WaitTime in seconds - MN: Set added =10
+  PEVStartWindow := Trunc(ReadDayTagParameter('PEVSTARTWINDOW',10))* 60; // StartWindow open in seconds  - MN: Set added =10
   MaxStartSpeed := Trunc(ReadDayTagParameter('MAXSTSPD',0));		// Startspeed interpolation done if MaxStartSpeed (in km/h) >0
   AllUserWrng := Trunc(ReadDayTagParameter('ALLUSERWRNG',1));		// Output of All UserWarnings with PEVs: ON=1(for debugging and testing) OFF=0  
 
