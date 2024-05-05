@@ -179,7 +179,7 @@ begin
 
   // Minimum Distance to validate the Day, depending on the class [meters]
   Dm := 50000; // Dm changed from 100000 to 50000 for Hotzenwaldwettbewerb
-  if Task.ClassID = 'club' Then Dm := 100000;
+  if Task.ClassID = 'club' Then Dm := 50000; // Dm changed from 100000 to 50000 for Hotzenwaldwettbewerb
   if Task.ClassID = '13_5_meter' Then Dm := 100000;
   if Task.ClassID = 'standard' Then Dm := 50000; // Dm changed from 100000 to 50000 for Hotzenwaldwettbewerb
   if Task.ClassID = '15_meter' Then Dm := 120000;
@@ -189,12 +189,12 @@ begin
   
   // Minimum distance for 1000 points, depending on the class [meters]
   D1 := 250000;
-  if Task.ClassID = 'club' Then D1 := 200000; // Changed D1 from 250000 to 200000 for Hotzenwaldwettbewerb
+  if Task.ClassID = 'club' Then D1 := 250000;
   if Task.ClassID = '13_5_meter' Then D1 := 250000;
-  if Task.ClassID = 'standard' Then D1 := 250000; // Changed D1 from 300000 to 250000 for Hotzenwaldwettbewerb
+  if Task.ClassID = 'standard' Then D1 := 300000;
   if Task.ClassID = '15_meter' Then D1 := 300000;
   if Task.ClassID = 'double_seater' Then D1 := 300000;
-  if Task.ClassID = '18_meter' Then D1 := 300000; // Changed D1 from 350000 to 300000 for Hotzenwaldwettbewerb
+  if Task.ClassID = '18_meter' Then D1 := 350000;
   if Task.ClassID = 'open' Then D1 := 350000;
 
   // Handicaps for club and 20m multi-seat and unknown (formerly 'mixed') class
